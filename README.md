@@ -1,4 +1,4 @@
-# clean-deep-pbbbl
+# clean-deep-pbbbl (clean-deep)
 
 > Forked [clean-deep](https://github.com/nunofgs/clean-deep/tree/v3.4.0p) with new `fn` option for removing functions/methods. Traverses arrays and objects.
 
@@ -11,7 +11,7 @@ Removes _methods (functions)_ empty _objects_, _arrays_, empty _strings_, _NaN_,
 Download the repo to your root directory, and install via npm:
 
 ```
-npm i -S path/to/root/directory/clean-deep-pbbbl
+npm i -S clean-deep-pbbbl
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm i -S path/to/root/directory/clean-deep-pbbbl
 | `emptyArrays`     | true          | Remove empty arrays, ie: `[]`                                                                                         |
 | `emptyObjects`    | true          | Remove empty objects, ie: `{}`                                                                                        |
 | `emptyStrings`    | true          | Remove empty strings, ie: `''`                                                                                        |
-| `fn`              | true          | Remove functions, ie: `()=>{}, function(){}` - ony in [`clean-deep-pbbbl`](https://github.com/pbbbl/clean-deep-pbbbl) |
+| `fn`              | true          | Remove functions, ie: `()=>{}, function(){}` - ony in [`pbbbl-clean-deep`](https://github.com/pbbbl/pbbbl-clean-deep) |
 | `NaNValues`       | false         | Remove NaN values, ie: `NaN`                                                                                          |
 | `nullValues`      | true          | Remove null values, ie: `null`                                                                                        |
 | `undefinedValues` | true          | Remove undefined values, ie: `undefined`                                                                              |
@@ -91,7 +91,7 @@ npm version [<newversion> | major | minor | patch] -m "Release %s"
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/clean-deep.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/clean-deep
-[workflow-image]: https://github.com/nunofgs/clean-deep/workflows/Node%20CI/badge.svg
-[workflow-url]: https://github.com/nunofgs/clean-deep/actions
+<!-- [npm-image]: https://img.shields.io/npm/v/clean-deep.svg?style=flat-square -->
+<!-- [npm-url]: https://npmjs.org/package/clean-deep -->
+<!-- [workflow-image]: https://github.com/pbbbl/pbbbl-clean-deep/workflows/Node%20CI/badge.svg -->
+<!-- [workflow-url]: https://github.com/nunofgs/clean-deep/actions -->

@@ -10,7 +10,7 @@ const transform = require("lodash.transform");
  * Export `cleanDeep` function.
  */
 
-module.exports = function cleanDeep(
+module.exports = function clean(
     object,
     { cleanKeys = [], cleanValues = [], emptyArrays = true, emptyObjects = true, emptyStrings = true, fn = true, NaNValues = false, nullValues = true, undefinedValues = true } = {},
 ) {

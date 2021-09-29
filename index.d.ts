@@ -9,6 +9,7 @@ export type CleanOptions = {
     emptyObjects?: boolean;
     emptyStrings?: boolean;
     NaNValues?: boolean;
+    fn: boolean,
     nullValues?: boolean;
     undefinedValues?: boolean;
 };
